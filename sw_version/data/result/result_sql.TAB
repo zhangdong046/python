@@ -1,0 +1,21 @@
+!table
+!version 300
+!charset WindowsSimpChinese
+
+Definition Table
+  Type NATIVE Charset "WindowsSimpChinese"
+  Fields 14
+    CaseId Char (200) ;
+    RuleId Char (200) ;
+    TableName Char (200) ;
+    FeatureId Char (200) ;
+    Title Char (254) ;
+    Errmsg Char (254) ;
+    CaseTime Char (200) ;
+    Number Char (200) ;
+    CaseNum Char (200) ;
+    Geom Char (200) ;
+    Mark Char (254) ;
+    Relate Char (254) ;
+    MeshId Char (254) ;
+    AdminCode Char (254) ;

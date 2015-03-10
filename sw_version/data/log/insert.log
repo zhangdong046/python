@@ -1,0 +1,2 @@
+delete from nav_link_name where link_name_id = 'ab''cd' and link_id = 'test' and name_id = 'nameid2' and seq_num is null and name_class = '1' and name_type = '0' and src_flag = '0' and memo = '';
+insert into nav_link_name(link_name_id,link_id,name_id,seq_num,name_class,name_type,src_flag,memo)values('ab''cd','test','nameid2',null,'1','0','0','');

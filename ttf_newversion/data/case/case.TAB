@@ -1,0 +1,21 @@
+!table
+!version 300
+!charset WindowsSimpChinese
+
+Definition Table
+  Type NATIVE Charset "WindowsSimpChinese"
+  Fields 14
+    CaseID Char (200) ;
+    RuleId Char (200) ;
+    Flag Char (200) ;
+    LyrName Char (254) ;
+    FldName Char (254) ;
+    FldVal Char (254) ;
+    Remark Char (254) ;
+    CaseDescribe Char (254) ;
+    CaseValid1 Char (254) ;
+    CaseValid2 Char (254) ;
+    Priority Char (1) ;
+    Time Char (200) ;
+    Date Char (200) ;
+    Version Char (200) ;
